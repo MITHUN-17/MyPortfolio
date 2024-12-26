@@ -3830,20 +3830,25 @@ img.u-pull-left {
 }
 
 .modal-popup__details {
-    background-color : rgba(0, 0, 0, 0.3);
-    font-size        : var(--text-xs);
-    line-height      : var(--vspace-1_25);
-    color            : white;
-    padding          : 0 1.2rem;
-    position         : absolute;
-    top              : var(--vspace-1);
-    left             : var(--vspace-1);
+    background-color: rgba(0, 0, 0, 0.6);
+    font-size: var(--text-xs);
+    line-height: var(--vspace-1_25);
+    color: white;
+    padding: 0 1.2rem;
+    position: absolute;
+    bottom: var(--vspace-1); 
+    right: var(--vspace-1); 
+    text-align: right; 
 }
+
+
+
 
 .modal-popup__details:focus,
 .modal-popup__details:hover {
     background-color : var(--color-body);
     color            : white;
+    transition       : 0.5s;
 }
 
 /* ------------------------------------------------------------------- 
